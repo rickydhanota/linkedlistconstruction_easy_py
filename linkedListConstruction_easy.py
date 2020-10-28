@@ -26,3 +26,39 @@
 #removeNodesWithValue(3): 4, 1, 2, 5, 6 // remove all nodes with value 3
 #remove(2): 4, 1, 5, 6 // //remnove the existing node with value 2
 #containsNodeWithValue(5): true
+
+# This is the input class
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.prev = None
+        self.next = None
+
+class DoublyLinkedList:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def setHead(self, node):
+        pass
+
+    def setTail(self, node):
+        pass
+
+    def insertBefore(self, node, nodeToInsert):
+        pass
+
+    def insertAfter(self, node, nodeToInsert):
+        pass
+
+    def insertAtPosition(self, position, nodeToInsert):
+        pass
+
+    def removeNodesWithValue(self, values):
+        pass
+    
+    def remove(self, node):
+        pass
+
+    def containsNodeWithValue(self, value):
+        pass
